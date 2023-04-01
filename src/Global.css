@@ -1,0 +1,48 @@
+:root {
+  --gradient-1: linear-gradient(
+    180deg,
+    #7755ff 0%,
+    #6943ff 0.01%,
+    #2f2ce9 100%
+  );
+  --gradient-2: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  --yellow: #ffb21e;
+  --white-yellow: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ffb21e;
+  --blue: #1125d6;
+  --white-blue: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #1125d6;
+  --green: #00bb8f;
+  --white-green: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #00bb8f;
+  --red: #ff5555;
+  --white-red: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ff5555;
+  --dark-navy: #303b59;
+  --light-blue: #cac9ff;
+  --very-light-blue: #ecf2ff;
+  --white: #ffffff;
+
+  --mobile-breakpoint: 800px;
+}
