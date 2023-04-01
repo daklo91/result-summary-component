@@ -1,0 +1,27 @@
+.container {
+  max-width: 736px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 50px;
+  display: flex;
+}
+
+.column1 {
+  width: 100%;
+}
+
+.column2 {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    height: 100px;
+    max-width: 375px;
+  }
+}
