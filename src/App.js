@@ -1,4 +1,3 @@
-import "./Global.css";
 import styles from "./App.module.css";
 import Container from "./components/Container";
 
