@@ -6,16 +6,12 @@
   left: 0;
   right: 0;
   margin: auto;
-  height: 50px;
+  max-height: 512px;
   display: flex;
 }
 
-.column1 {
-  width: 100%;
-}
-
-.column2 {
-  width: 100%;
+.column {
+  width: 50%;
 }
 
 @media (max-width: 800px) {
