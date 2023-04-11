@@ -1,5 +1,6 @@
 import styles from "./Container.module.css";
 import { useEffect, useState } from "react";
+import SummaryList from "./SummaryList";
 
 function Container() {
   const [scoreNumber] = useState(50);
@@ -34,7 +35,10 @@ function Container() {
           Your performance exceed 65% of the people conducting the test here!
         </p>
       </div>
-      <div className={styles.column}>Dette er en test</div>
+      <div className={styles.summaryContainer}>
+        <p className={`${styles.summaryHeader} heading-m`}>Summary</p>
+        <SummaryList />
+      </div>
     </div>
   );
 }

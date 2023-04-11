@@ -64,8 +64,13 @@
   margin: auto;
 }
 
-.column {
-  width: 50%;
+.summaryContainer {
+  padding: 38px 40px 46px 40px;
+}
+
+.summaryHeader {
+  color: var(--dark-navy);
+  margin: 0;
 }
 
 @media (max-width: 800px) {
