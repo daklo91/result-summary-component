@@ -4,7 +4,7 @@ import SummaryList from "./SummaryList";
 import CTAButton from "./CTAButton";
 
 function Container() {
-  const [scoreNumber] = useState(50);
+  const [scoreNumber] = useState(76);
   const [tickNumber, setTickNumber] = useState(0);
   const [delay, setDelay] = useState(10);
 
