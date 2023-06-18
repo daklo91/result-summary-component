@@ -1,6 +1,7 @@
 import styles from "./Container.module.css";
 import { useEffect, useState } from "react";
 import SummaryList from "./SummaryList";
+import CTAButton from "./CTAButton";
 
 function Container() {
   const [scoreNumber] = useState(50);
@@ -38,6 +39,7 @@ function Container() {
       <div className={styles.summaryContainer}>
         <p className={`${styles.summaryHeader} heading-m`}>Summary</p>
         <SummaryList />
+        <CTAButton />
       </div>
     </div>
   );
