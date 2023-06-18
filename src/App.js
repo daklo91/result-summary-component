@@ -1,9 +1,8 @@
-import styles from "./App.module.css";
 import Container from "./components/Container";
 
 function App() {
   return (
-    <div className={styles.app}>
+    <div>
       <Container />
     </div>
   );
