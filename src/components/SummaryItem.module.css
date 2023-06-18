@@ -1,0 +1,58 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  width: 288px;
+  padding: 17px 16px 16px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.icon_and_name img {
+  vertical-align: sub;
+  margin-right: 12px;
+}
+
+.score {
+  color: var(--dark-navy);
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.total_score {
+  color: var(--dark-navy);
+  opacity: 0.5;
+  font-weight: 700;
+}
+
+.red {
+  background: var(--white-red);
+  color: var(--red);
+}
+
+.yellow {
+  background: var(--white-yellow);
+  color: var(--yellow);
+}
+
+.green {
+  background: var(--white-green);
+  color: var(--green);
+}
+
+.blue {
+  background: var(--white-blue);
+  color: var(--blue);
+}
+
+@media (max-width: 800px) {
+  li {
+    width: auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}

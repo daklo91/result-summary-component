@@ -1,14 +1,15 @@
-import { useEffect } from "react";
 import data from "../data.json";
+import SummaryItem from "./SummaryItem";
+import styles from "./SummaryList.module.css";
 
 function SummaryList() {
-  useEffect(() => {
-    console.log(data);
-
-    return () => {};
-  }, []);
-
-  return <ul></ul>;
+  return (
+    <ul className={styles.list}>
+      {data.map((props) => (
+        <SummaryItem skill={props} key={props.id} />
+      ))}
+    </ul>
+  );
 }
 
 export default SummaryList;
