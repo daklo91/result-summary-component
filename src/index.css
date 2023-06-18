@@ -54,6 +54,7 @@ body {
   margin: 0;
   font-family: "HankenGrotesk", sans-serif;
   font-size: 18px;
+  background-color: var(--very-light-blue);
 }
 
 .heading-xl {
@@ -70,4 +71,22 @@ body {
 .heading-m {
   font-weight: 700;
   font-size: 24px;
+}
+
+@media (max-width: 800px) {
+  .heading-xl {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 72px;
+  }
+
+  .heading-l {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .heading-m {
+    font-size: 18px;
+  }
 }
